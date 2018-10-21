@@ -1,0 +1,40 @@
+{% extends 'registration/base.html' %}
+
+{% load static %}
+{% load bootstrap4 %}
+
+
+{% block content %}
+{{ form.media }}
+
+    <style>
+     .jumbotron{
+        width: 70%;
+        margin-left: 1%;
+        background-color: white;
+        text-align: center;
+    }
+</style>
+
+
+    <div class="container">
+            <div class="row">
+                <div class="jumbotron">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <p>{{profile_details.bio}}</p>
+                            <p>{{ profile_details.user }}</p>
+
+
+                        </li>
+
+
+                    </ul>
+
+                    <p><a href= "{% url 'business' %}">Create a business</a></p>
+                    <p><a href= "{% url 'business' %}">Make a Post</a></p>
+                </div>
+            </div>
+    </div>
+
+{% endblock %} endblock %}
