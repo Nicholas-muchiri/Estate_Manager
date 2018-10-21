@@ -161,7 +161,7 @@ def comment(request,post_id):
                 print(comments)
 
 
-            return redirect(home)
+            return redirect(hood)
 
         else:
             form = CommentForm()
