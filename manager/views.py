@@ -6,4 +6,4 @@ def home(request):
     business = Business.objects.all()
     posts = Post.objects.all()
 
-    return render(request,'home.html',locals())
+    return render(request,'hood.html',locals())
