@@ -90,7 +90,7 @@ def create_business(request):
             new_biz.user = current_user
             # new_biz.hood =this_hood
             new_biz.save()
-            return redirect(home)
+            return redirect(hood)
     else:
         form = BusinessForm()
     return render(request,"businessform.html",locals())
