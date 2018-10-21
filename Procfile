@@ -1,1 +1,1 @@
-web: gunicorn Insta.wsgi
+web: gunicorn Estate.wsgi
