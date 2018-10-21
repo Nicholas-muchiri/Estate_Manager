@@ -45,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="8" />
-          <entry key="md" value="218" />
+          <entry key="md" value="219" />
           <entry key="py" value="347" />
           <entry key="txt" value="3" />
         </counts>
@@ -55,7 +55,7 @@
           <entry key="HTML" value="8" />
           <entry key="Markdown" value="218" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="347" />
+          <entry key="Python" value="348" />
         </counts>
       </usages-collector>
     </session>
@@ -158,8 +158,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="402">
-                <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+              <first_editor relative-caret-position="245">
+                <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -309,7 +309,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.21316615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.21316615" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,7 +320,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992163" visible="true" weight="0.065252855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4992163" visible="true" weight="0.16965742" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007837" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -559,8 +559,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="402">
-            <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <first_editor relative-caret-position="245">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           </first_editor>
           <second_editor />
         </state>
