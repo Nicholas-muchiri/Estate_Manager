@@ -46,7 +46,7 @@ def display_profile(request, id):
 
 
 
-    return render(request,'profile.html',locals())
+    return render(request,'profile/profile.html',locals())
 
 
 
@@ -75,7 +75,7 @@ def join(request, hoodId):
 
         Join(user_id=request.user, hood_id=neighbourhood).save()
 
-    messages.success(request, 'Success! You have succesfully joined this Neighbourhood ')
+    messages.success(request, 'Success! You have successfully joined this Neighbourhood ')
     return redirect('hoods')
 
 def create_business(request):
