@@ -95,6 +95,6 @@ localhost:8000
 
 ## License and terms of use
 
-[MIT License](license) this application's source code is free for any open source projects
+[MIT License](license) this application's source code is free for any open source projects.
 
 
