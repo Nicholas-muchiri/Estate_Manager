@@ -1,5 +1,7 @@
 from django.conf.urls import url,include
 from . import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
         url(r'^$',views.hood,name='hood'),
@@ -12,6 +14,7 @@ urlpatterns = [
         url(r'^new/post$', views.new_post, name='newpost'),
         url(r'^join/(\d+)', views.join, name='joinHood'),
         url(r'^createHood/$', views.createHood, name='createHood'),
+        url(r'^signup/$', views.signup, name='signup'),
         url(r'^comment/(?P<post_id>\d+)', views.comment, name='comment'),
         url(r'^search/$', views.search, name='search'),
 

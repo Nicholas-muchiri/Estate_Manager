@@ -13,9 +13,9 @@
             {% endif %}
             <div class="signup-fields">
                 <div class="section">
-                    <h1>Instagram</h1>
+                    <h1>Estate Manager</h1>
                     <div class="form-section">
-                        <form method="POST">
+                        <form action="/accounts/register" method="POST">
                             {% csrf_token %}
                             {% bootstrap_form form %}
                             <div class="form-group">

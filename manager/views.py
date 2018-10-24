@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from .models import Post,Profile,Neighbourhood,Business,Join,Comments
 from django.contrib import messages
-from . forms import ProfileForm,BusinessForm,PostForm,CreateHoodForm,CommentForm
+from . forms import ProfileForm,BusinessForm,PostForm,CreateHoodForm,CommentForm,SignupForm
 from django.contrib.auth.models import User
 
 # Create your views here.
@@ -63,6 +63,21 @@ def create_profile(request):
     else:
         form = ProfileForm()
     return render(request,'new_profile.html', locals())
+
+def signup(request):
+    if request.method == 'POST':
+        form = SignupForm(request.POST)
+        if form.is_valid():
+            user = form.save(commit=False)
+            user.is_active = False
+            user.save()
+            current_site = get_current_site(request)
+            to_email = form.cleaned_data.get('email')
+            send_activation_email(user, current_site, to_email)
+            return HttpResponse('Please activate your email')
+    else:
+        form = SignupForm()
+    return render(request, 'registration/signup.html', {'form': form})
 
 
 @login_required(login_url='/accounts/login/')
